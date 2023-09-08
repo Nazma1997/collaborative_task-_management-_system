@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <div className='navbar-container'>
       <nav className="navbar">
-        <div className="nav-logo"><Link to='/home'>Logo</Link></div>
+        <div className="nav-logo"><Link to='/'>Logo</Link></div>
         <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
           <ul className="nav-list">
             <li className="nav-item">
