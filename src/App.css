@@ -1,4 +1,4 @@
-/* RegistrationForm.css */
+
 .container {
   max-width: 400px;
   margin: 10% auto;
@@ -45,7 +45,7 @@ button {
   margin-top: -8px;
 }
 
-/* Add responsive styles for smaller screens */
+
 @media (max-width: 768px) {
   .container {
     max-width: 90%;
@@ -206,7 +206,7 @@ tbody tr:hover {
   width: fit-content;
 }
 .parent-container {
-  position: relative; /* Ensure parent container is positioned */
+  position: relative; 
 }
 
 .button-container {
@@ -217,9 +217,7 @@ tbody tr:hover {
 .level-margin{
   margin-right: 3%;
 }
-.filtering{
 
-}
 
 @media (min-width: 768px) {
   .filtering {
@@ -242,15 +240,12 @@ tbody tr:hover {
   justify-content: center;
   color: red;
   font-size: 55px;
-  /* margin: 0 100% 0 100%; */
+  
 }
 .home{
   margin: 5% 35%;
 }
 
-/* Teams.css */
-
-/* Container styles */
 .team-container {
   max-width: 800px;
   margin: 5% auto;
@@ -270,13 +265,13 @@ tbody tr:hover {
  
   margin: 0% 40%;
 }
-/* Header styles */
+
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-/* Form styles */
+
 form {
   display: flex;
   flex-direction: column;
@@ -306,7 +301,7 @@ button {
   cursor: pointer;
 }
 
-/* Teams list styles */
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -327,7 +322,7 @@ button[type="button"] {
   cursor: pointer;
 }
 
-/* Assign To section styles */
+
 .select-container {
   margin-top: 20px;
 }
@@ -347,7 +342,7 @@ button[type="button"] {
   margin-bottom: 10px;
 }
 
-/* Media query for responsiveness */
+
 @media screen and (max-width: 768px) {
   .team-container {
     padding: 10px;
@@ -369,11 +364,8 @@ button[type="button"] {
     font-size: 14px;
   }
 }
-.teams-name{
-  display: flex;
-  justify-content: space-evenly;
-}
-/* Modal styles */
+
+
 .modal {
   display: none;
   position: fixed;
@@ -381,7 +373,7 @@ button[type="button"] {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.171); /* Background color set to black with some transparency */
+  background-color: rgba(0, 0, 0, 0.171); 
   justify-content: center;
   align-items: center;
 }
@@ -415,8 +407,8 @@ button[type="button"] {
   cursor: pointer;
 }
 .dashboard-container {
-  max-width: 800px; /* Set a maximum width for the dashboard */
-  margin: 0 auto; /* Center align the dashboard */
+  max-width: 800px; 
+  margin: 0 auto; 
   padding: 20px;
 }
 
@@ -433,7 +425,7 @@ button[type="button"] {
   padding: 0;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .dashboard-container {
     max-width: 100%;
